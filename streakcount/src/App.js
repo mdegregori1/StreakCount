@@ -4,6 +4,7 @@ import fire from './config/Fire';
 import { Route } from "react-router-dom";
 
 import Login from "./components/Login"
+import Register from "./components/Register"
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
     <div >
       <h3>StreakCount</h3>
       <Route path = "/Login" component={Login}/>
+      <Route path = "/Register" component={Register}/>
     </div>
   );
 }

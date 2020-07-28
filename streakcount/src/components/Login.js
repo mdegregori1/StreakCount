@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Login = (props) => {
+const Login = () => {
 
     const [login, setLogin] = useState({
       email: '',
